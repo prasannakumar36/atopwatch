@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+.container{
+    border:5px solid black;
+   background-color: gray;
+}
+.cell{
+    background: blanchedalmond;
+     border:solid 5px rgb(226, 151, 11);
+    text-align: center;
+ text-transform: capitalize;
+    font-weight: bold;
+}
+.cell1{
+    background: red;
+    
+
+}
+.cell2{
+    background: rgb(85, 11, 212); 
+}
+.cell3{
+    
+    background: rgb(17, 195, 118); 
+   
+}
+.cell4{
+    background: rgb(10, 123, 215);   
+   
+}
+.cell5{
+    background: rgb(218, 12, 170);  
+
+}
+.cell6{
+    background: rgb(158, 215, 14);  
+    
+}
+.cell7{
+    background: rgb(178, 199, 19); 
+   
+}
+

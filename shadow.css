@@ -1,0 +1,12 @@
+div{
+    background-color: rgb(11, 213, 18);
+    height:400px;
+    width: 400px;
+    box-shadow: 20px 5px 20px red;
+    margin:auto;
+    transition: all 0.7s linear;
+
+}
+.div:hover{
+    background-color: pink;
+}

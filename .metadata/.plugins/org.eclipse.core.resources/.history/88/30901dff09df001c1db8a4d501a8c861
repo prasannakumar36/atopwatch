@@ -1,0 +1,10 @@
+package kumar;
+
+public class second {
+	public static void main(String[] args) {
+		int N=30;
+		int M=6;
+		System.out.println((N%m==0?"1":"0"));
+	}
+}
+	

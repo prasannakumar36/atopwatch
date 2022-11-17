@@ -1,0 +1,23 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    background-color: #1cbebe;
+    width: 50vw;
+    height:50vh;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap:1rem;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+}
+.item{
+    background-color: rgb(86, 81, 97);
+   
+}
+.item1{
+    grid-column-start:1;
+    grid-column-end:3;
+
+}

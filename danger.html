@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="danger.css"/>
+    <title>Document</title>
+</head>
+
+<div style='margin-left: 20%;'>
+
+    <h3>Add Two Numbers</h3>
+    
+    <input type='number' id='num1' placeholder="Num1"><br>
+    
+    <input type='number' id='num2' placeholder="Num2"><br>
+    
+    <button id='mybtn' style='margin-left: 50px;'>Add</button><br>
+    
+    <input type='number' id='result' placeholder="Result" disabled>
+    
+    </div>
+   </div>
+   <script >
+    /*
+    function set(){
+    
+
+        console.log("this is the main thing")
+
+    }
+    function second(ll){
+        ll()
+        
+        console.log("this will be software enginear")
+    }
+    second(set)
+    
+
+
+    function add(a,b){
+        console.log(a+b)
+    }
+    function multi(a,b){
+        console.log(a*b)
+ }
+ function calculate(val1,val2,operation){
+    operation(val1,val2)
+ }
+ calculate(5,88,add)
+ calculate(7,3,multi)
+
+
+ function test(a){
+    a()
+ }
+ test(function(){
+    console.log("llkckkghuohfy fdjijdijc")
+ })
+
+
+
+ arr=[4,5,8,6,9,7,]
+
+ var res=arr.map(function(value, index, array){
+    return index*index;
+    
+ })
+ console.log(res);
+
+
+
+ function a(p,q){
+    console .log(p+q)
+ }
+ function b(j,k){
+    console.log(j*k)
+ }
+function camel(val,val3,nothing){
+nothing(val,val3)
+}
+camel(55,77,a)
+camel(4,4,b)*/
+
+
+/*var arr=[4,8,7,9,5,4]
+function square(arr){
+    squares=[]
+    for(ele of arr){
+        let res=ele*ele;
+        squares.push(res)
+
+    }
+    return squares
+
+}
+function cube(arr){
+    cubes=[]
+    for(ele of arr){
+        let res=ele+ele;
+        cubes.push(res)
+
+    }
+    return cubes
+
+}
+
+let x=square(arr)
+console.log(x)
+let y=cube(arr)
+console.log(y)
+*/
+var arr=[4,8,7,9,5,4]
+function square(num){
+    return num*num
+}
+function cube(num){
+    return num*num*num
+}
+function anyoperation(arr,operation){
+    let result=[]
+    for(ele of arr)
+        result.push(operation(ele))
+        return result
+    
+}
+let z=anyoperation(arr,square)
+console.log(z)
+
+
+   </script>
+</body>
+</html>

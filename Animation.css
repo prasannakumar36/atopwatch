@@ -1,0 +1,65 @@
+div{
+    height:300px;
+    width:300px;
+    background-color:red;
+    animation-name:newtonBatch;
+    animation-duration:4s;/*ms*/
+    animation-iteration-count: 1;/* infanite*/
+    animation-delay: 0s;
+    /*animation-timing-function: normal;/*ease-out,  linear   ese-in-out*/
+    animation-direction: normal;
+    animation-fill-mode: forwards;/*backward*/
+}
+@keyframes newtonBatch {
+   /* from{
+        background-color: yellow;
+        
+    }
+    to{
+        background-color: green;
+    }
+    
+}
+
+/*0%{
+    background-color: aliceblue;
+    posistion:relative;
+    left:0;
+}
+20%{
+    background-color: antiquewhite;
+    position:relative;
+    left:800px;
+}
+40%{
+    background-color: aqua;
+}
+60%{
+    background-color: blue;
+}
+80%{
+    background-color: blueviolet;
+}
+100%{
+    background-color: black;
+}
+*/
+0%{
+    background-color: green;
+    posistion:relative;
+    left:0;
+}
+100%{
+    background-color: red;
+    position:relative;
+    left:800px;
+}
+}
+body{
+    height:100vh;
+   /* background-image:linear-gradient(to left, red,yellow )*/
+  /* background-image: radial-gradient(%,deg,red, green, yellow);*/
+  background-image:conic-gradient(red,blue,orange,pink) ;
+}
+*/
+

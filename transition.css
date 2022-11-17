@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width:100px;
+    border-radius: 10px;
+    background-color:blue;
+    color:white;
+    margin:10px;
+    transition: all 3s;
+    
+
+}
+div:hover{
+    transform: translateX(127px);
+}
+.ease{
+    transition-timing-function: ease;
+}
+.ease{
+    transition-timing-function: ease-in;
+}
+.ease{
+    transition-timing-function: ease-out;
+}
+.ease{
+    transition-timing-function: ease-in-out;
+}
+.ease{
+    transition-timing-function: lineart;
+}

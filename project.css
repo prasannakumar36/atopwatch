@@ -1,0 +1,156 @@
+*{
+   box-sizing: border-box; 
+   padding: 0;
+   margin: 0;
+}
+body{
+
+ 
+}
+div{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.heading{
+    background-color: rgb(47, 202, 29);
+    color:white;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    text-align: top;
+    padding:30px;
+    position: relative;
+    top:0;
+
+    
+
+}
+nav{
+    background-color: gray;
+    padding:20px;
+    position: relative;
+    bottom:30px;
+
+}
+a{
+    color:white;
+}
+.Home{
+ position: relative;
+    right: 0px;
+    font-size: 20px;
+  
+    
+}
+.Aboutus{
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+}
+.Payment{
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+}
+.nnn{
+    position: relative;
+    left: 500px;
+    font-size: 20px;
+}
+.Home:hover{
+
+    color:pink;
+}
+.Aboutus:hover{
+    color:pink;
+}
+.Payment:hover{
+    color:pink;
+}
+.nnn:hover{
+    color:pink;
+}
+.Aboutus:link{
+    color:red;
+}
+.Home:visited{
+    color:black; 
+
+}
+.Aboutus:active{
+    color: green;
+}
+.boxmodels{
+    background-color: gray;
+   
+    position: relative;
+    bottom:30px;
+
+   
+}
+
+.FOODITEMS{
+    background-color: rgb(47, 202, 29);
+    color:white;
+    text-transform: capitalize;
+    
+    padding:30px;
+    position: relative;
+    top:0;
+    
+}
+.image{
+
+}
+
+.food4{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: gray;
+box-shadow: 10px  1px gray;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-align: center;
+}
+.food2{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: gray;
+box-shadow: 10px  1px gray;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-align: center;
+  
+}
+.food1{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: gray;
+box-shadow: 10px  1px gray;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-align: center;
+  
+}
+.food3{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: gray;
+box-shadow: 10px  1px gray;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-align: center;
+  
+}
+
+

@@ -1,0 +1,23 @@
+package kumar;
+
+public class main {
+static int rev (int num) {
+	while(num>0) {
+		int ans = 0;
+		while(num>0){
+			int LastD=num%10;
+			ans = (ans*10)+LastD;
+			
+			num = num/10;
+			}
+		return ans;
+	}
+	public static void main(String[] args) {
+		int num = 987;
+		int ans = rev(num);
+		System.out.println(ans);
+		}
+}
+
+}
+}

@@ -1,0 +1,21 @@
+package kumar;
+
+public class second {
+	public static void main(String[] args) {
+		int n=5;
+		int count=0;
+		for(int i=1;i<=n;j++)
+		{
+			for(int j=n; j>=1;j--)
+			{
+				if(i+j==n)
+				{
+					count++;
+				}
+			}
+		}
+		System.out.println(count);
+	}
+		
+}
+	

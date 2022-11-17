@@ -1,0 +1,21 @@
+div{
+background-color: blueviolet;
+border:5px solid red;
+
+position:static;
+}
+.one{
+    background-color: bisque;
+   position: relative;
+   left:100px;
+}
+.two{
+    background-color: brown;
+    text-align:left ;
+}
+.special{
+    background-color: red;
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+}

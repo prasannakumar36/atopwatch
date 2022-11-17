@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        
+    }
+#special{
+    height:50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+
+}
+
+</style>
+
+</head>
+<body>
+    <button type="button"  class="" id="special"  value="Get Data">good</button>
+    <div class="data"></div>
+    
+<script>
+  
+let  btn =document.getElementById("special")
+let datal=document.getElementById("data")
+
+btn.addEventListener('click', loaddata)
+
+function loaddata(){
+let xhr=new XMLHttpRequest()
+xhr.open('GET','test.text',true)
+xhr.send()
+xhr.onprogress=function(){
+    datal.innerText="Loading. . .. ... ."
+}
+xhr.onload=function(){
+    datal.innerText=xhr.responseText;
+}
+
+
+
+}
+
+
+
+
+
+
+
+</script>
+
+
+
+
+    
+</body>
+</html>

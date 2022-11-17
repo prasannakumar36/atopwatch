@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="domEvent.js"/>
+   
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        /*let p=fetch("https://www.w3schools.com/js/")
+        p.then(function(response){
+            responce.json().then(function(countryinfo){
+                console.log(countryinfo)
+            })
+
+        })
+        p.catch(function(error){
+            console.log(error)
+            console.log("error")
+        })*/
+       /* async function test(){
+            let res=fetch("test.text")
+            res.then(function(response){
+                response.text().then(function(data){
+console.log(data)
+                })
+            })
+        }
+        test()*/
+
+        /*try{
+            console.log("kumar")
+        
+            console.log(lldkjjfj)
+        }
+        catch(error){
+            console.log(error)
+        }
+        let x=10;
+        console.log("i ama failure")
+        if(x<15){
+            throw "x must be grater than"
+            console.log("please provide numbers")
+        }
+        console.log("hello")*/
+
+        let person={
+            name:"xyz",
+            age:26,
+            address:{
+                city:"ap",
+                state:"kolkaths",
+
+            }
+        }
+        console.log()
+        let {name,age,  address:{city}}=person
+        console.log(city)
+
+
+
+        
+
+
+    </script>
+</body>
+</html>

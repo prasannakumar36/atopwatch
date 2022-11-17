@@ -1,0 +1,47 @@
+body{
+    background-color: aquamarine;
+}
+div{
+    background-color: red;
+    
+}
+selection{
+    background-color: green;
+}
+@media screen and (min-width:567px){
+    body{
+        background-color: bisque;
+    }
+    div{
+        font-size: 56px;
+        font-family: Roboto;
+        
+       
+
+    }
+    selection{
+
+    }
+    h1{
+        color: white;
+        background-color: brown;
+    }
+    @media screen and (max-width:567px){
+        body{
+            background-color:yellow;
+        }
+        div{
+            font-size: 56px;
+            font-family: Roboto;
+            
+           
+    
+        }
+        selection{
+    
+        }
+        h1{
+            color: rgb(140, 10, 10);
+            background-color: rgb(106, 42, 165);
+        }
+}

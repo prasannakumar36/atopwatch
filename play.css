@@ -1,0 +1,19 @@
+.banner{
+    border:solid red;
+    padding:20px;
+    overflow: hidden;
+
+}
+.one{
+    width: 500px;
+    float:right;
+}
+.two{
+    width:500px;
+    float:left;
+
+
+}
+p{
+    clear:both;
+}
